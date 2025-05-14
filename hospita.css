@@ -1,0 +1,61 @@
+/* Reset e configurações básicas */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #004e8c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estrutura principal da página */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+/* Bloco de informações */
+.info, .mapa {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+.info h2 {
+  color: #004e8c;
+  margin-bottom: 10px;
+}
+
+.info p {
+  line-height: 1.5;
+}
+
+/* Bloco do mapa */
+.mapa iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004e8c;
+  color: white;
+  margin-top: 40px;
+}
