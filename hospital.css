@@ -17,8 +17,9 @@
 header {
   background-color: #004e8c;
   color: white;
-  padding: 10px 20px;
+  padding: 8px 20px;
   text-align: center;
+  line-height: 1.2; 
 }
 
  /* Estrutura principal da página */
