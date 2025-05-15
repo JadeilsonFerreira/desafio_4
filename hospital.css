@@ -21,14 +21,12 @@ header {
   text-align: center;
 }
 
-/* Estrutura principal da página */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 40px 20px;
-  gap: 10px;
-}
+ /* Container padrão com largura máxima */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
  /* Cabeçalho */
   .topo {
